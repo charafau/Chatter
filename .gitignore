@@ -1,0 +1,12 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.setting
+/.sbt
+/.ivy
+/RUNNING_PID
+libexec
+bin

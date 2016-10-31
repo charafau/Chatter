@@ -1,0 +1,11 @@
+version: '2'
+services:
+  app:
+    build: PlayChat
+    command: sbt ~run
+    # stdin_open: true
+    volumes: ["./PlayChat:/root"]
+    # ports: ["9000:9000"]
+  proxy:
+    build: proxy
+    ports: ["80:80"]
